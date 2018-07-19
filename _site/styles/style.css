@@ -59,6 +59,9 @@ p,ul,li {
 .text-big {
   font-size: 2em;
 }
+.text-shadow {
+  text-shadow: 2px 2px 5px #444554;
+}
 /* link and button styles ----------------------------------------- */
 
 button {
@@ -99,6 +102,9 @@ button {
   margin: 1em 0;
   padding: 0;
 }
+.bg-dark {
+ background-color: #444554;
+}
 .bg-trans {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -107,12 +113,21 @@ nav {
   position: absolute;
   width: 100%;
 }
+nav a, nav p {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 1.1em;
+  color: white;
+  text-shadow: 2px 2px 5px #444554;
+}
 .logo-container {
   width: 200px;
   margin-top: 5px;
 }
 /* footer styles ----------------------------------------- */
-
+footer {
+  height: 100px;
+}
 /* homepage styles ----------------------------------------- */
 .bg-home-hero {
   background-image: url('/images/eco-trails-hero-BACKground-layer.jpg');
@@ -158,7 +173,7 @@ nav {
 }
 /* all tours page styles */
 .bg-tours-half-hero {
-  background-image: url('/images/adventure-altitude-background-733170.jpg');
+  background-image: url('/images/cascade-chiang-mai-doi-inthanon-130155.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

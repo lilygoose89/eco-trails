@@ -11,17 +11,17 @@ layout: default
     <a><button class="button-wide">Book Now →</button></a>
   </div>
 </header>
-<section class="section-padding grid">
+<section class="section-padding grid-spaceBetween">
   <div class="col-3">
     <!-- these are my "quick facts" box which appears on the left column in desktop and pulls text from front-matter-->
-    <div>
-      <h2>Quick Facts</h2>
-      <h3>Price: {{page.price}}</h3>
-      <h3>Duration: {{page.durations}}</h3>
-      <h3>Pick Up: {{page.pick-up}}</h3>
-      <h3>Meal(s): {{page.meals}}</h3>
-      <h3>Difficulty: {{page.difficulty}}</h3>
-      <h3>Seasonal: {{page.seasonal}}</h3>
+    <div class="bg-dark pad-all-s">
+      <h2 class="text-white">Quick Facts</h2>
+      <h3 class="text-white">Price: {{page.price}}</h3>
+      <h3 class="text-white">Duration: {{page.duration}}</h3>
+      <h3 class="text-white">Pick Up: {{page.pick-up}}</h3>
+      <h3 class="text-white">Meal(s): {{page.meals}}</h3>
+      <h3 class="text-white">Difficulty: {{page.difficulty}}</h3>
+      <h3 class="text-white">Seasonal: {{page.seasonal}}</h3>
     </div>
     <!-- this is my "more info" box which is the same across all tours  -->
     <div>
@@ -29,7 +29,7 @@ layout: default
     </div>
   </div>
   <!-- this is the  main content block for the tour page -->
-  <div class="col-9">
+  <div class="col-8">
     <div>
       {{content}}
     </div>
