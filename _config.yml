@@ -1,0 +1,18 @@
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name
+  tours:
+    output: true
+    permalink: /:collection/:name
+
+gems:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: 'all'
+  layout: 'post-list'
+  permalinks:
+    year: '/archives/year/:year/'
+    month: '/archives/month/:year-:month/'
+    tag: '/archives/tag/:name/'

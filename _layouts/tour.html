@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<header>
+  <!-- this is the half-height header hero with paper tear underneath -->
+  <div class="bg-half-hero" style="background-image: url('{{page.image}}');"></div>
+  <!-- this is the tour introduction that appears above the fold -->
+  <div class="tour-intro text-center section-padding">
+    <h1>{{page.title}}</h1>
+    <p>{{page.description}}</p>
+    <a><button class="button-wide">Book Now →</button></a>
+  </div>
+</header>
+<section class="section-padding grid">
+  <div class="col-3">
+    <!-- these are my "quick facts" box which appears on the left column in desktop and pulls text from front-matter-->
+    <div>
+      <h2>Quick Facts</h2>
+      <h3>Price: {{page.price}}</h3>
+      <h3>Duration: {{page.durations}}</h3>
+      <h3>Pick Up: {{page.pick-up}}</h3>
+      <h3>Meal(s): {{page.meals}}</h3>
+      <h3>Difficulty: {{page.difficulty}}</h3>
+      <h3>Seasonal: {{page.seasonal}}</h3>
+    </div>
+    <!-- this is my "more info" box which is the same across all tours  -->
+    <div>
+      {% include head.html %}
+    </div>
+  </div>
+  <!-- this is the  main content block for the tour page -->
+  <div class="col-9">
+    <div>
+      {{content}}
+    </div>
+    <h2>Highlights</h2>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+    </ul>
+    <h2>Itinerary:</h2>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+    </ul>
+    <h2>Notes:</h2>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+    </ul>
+    <a><button class="button-wide">Book Now →</button></a>
+  </div>
+  <!-- this is my full-width photo gallery -->
+  <div>
+
+  </div>
+</section>
