@@ -1,7 +1,9 @@
 ---
 layout: tour
-title: tour number one
+title: White-Water Rafting
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+tourgroup: adventure
+showonhome: show
 image: /images/ancient-architecture-asia-878489.jpg
 price: 1000THB
 duration: 11 hours

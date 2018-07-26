@@ -68,12 +68,13 @@
       </p>
     </div>
   </div>
+  <a href="#tours"><i class="fa fa-angle-double-down text-big text-turq" aria-hidden="true"></i></a>
 </section>
 <section class="bg-reviews">
   <div class="tear-top">
     <img src="/images/tear-top.png"/>
   </div>
-  <div class="grid">
+  <div class="grid-center">
     <div class="col-6_sm-12 outline-turq bg-trans text-center">
       <h3>True Trekking</h3>
       <p>
@@ -87,33 +88,71 @@
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
       </div>
+      <a href="https://www.tripadvisor.com/Attraction_Review-g293917-d12980836-Reviews-Ethnic_Hilltribe_Eco_Trails-Chiang_Mai.html" target="blank"><button class="button-main">Read More Reviews</button></a>
     </div>
   </div>
   <div class="tear-bottom">
     <img src="/images/tear-bottom.png"/>
   </div>
 </section>
-<section>
-  <h2 class="text-center">Featured Tours and Treks</h2>
+<section id="tours">
+  <h2 class="text-center bg-turq text-white pad-all-xs">Featured Tours and Treks</h2>
   <p class="text-center">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
   
-  <div class="grid">
-    <div class="col-9">
-      <h3>tour number one</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <a href="/tours/tournumberone"><button class="button-main">Learn More and Book</button></a>
-    </div>
-    <div class="col-3">
-      <img src="/images/ancient-architecture-asia-878489.jpg"/>
-    </div>
-    <span class="line-dotted-turq"></span>
-  </div>
+    <!-- filter tours based on details in front-matter -->
+    
+      <div class="grid">
+        <div class="col-4_sm-12">
+          <img src="/images/ancient-architecture-asia-878489.jpg"/>
+        </div>
+        <div class="col-8_sm-12">
+          <h3>Ethnic Hilltribe Eco Trails - 1 Day Doi Luang</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="/tours/DL1"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
+      <div class="grid">
+        <div class="col-4_sm-12">
+          <img src="/images/ancient-architecture-asia-878489.jpg"/>
+        </div>
+        <div class="col-8_sm-12">
+          <h3>Chiang Dao Cave, Hilltribes, and Sticky Waterfall</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="/tours/CDCS"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
+      <div class="grid">
+        <div class="col-4_sm-12">
+          <img src="/images/ancient-architecture-asia-878489.jpg"/>
+        </div>
+        <div class="col-8_sm-12">
+          <h3>White-Water Rafting</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="/tours/10WWR"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    
   
   <a href="all-tours"><button class="button-wide">See All Tours</button></a>
 </section>
@@ -124,7 +163,7 @@
 </section>
 
     <footer class="bg-dark grid-center">
-  <div class="col-1 pad-top-xs">
+  <div class="col-1_md-2_sm-4 pad-top-xs">
     <a href="/"><img src="/images/ethnichilltribeecotraillogo.png"/></a>
   </div>
   <h3 class="col-12 text-center">Practicing sustainable tourism and supporting family run businesses</h3>

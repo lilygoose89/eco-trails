@@ -36,99 +36,136 @@
     <header>
   <!-- this is the half-height header hero with paper tear underneath -->
   <div class="bg-tours-half-hero"></div>
+  <div class="tear-half-hero-bottom">
+    <img src="/images/tear-bottom.png"/>
+  </div>
   <!-- this is the tour introduction that appears above the fold -->
   <div class="tour-intro text-center section-padding">
     <h1>Our Tours and Treks</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a><button class="button-wide">Book Now →</button></a>
+    <!-- <a><button class="button-wide">Book Now →</button></a> -->
+    <a href="#choose"><i class="fa fa-angle-double-down text-big text-turq" aria-hidden="true"></i></a>
   </div>
 </header>
-<section class="text-center">
-  <h2>Choose Your Next Adventure</h2>
+<section id="choose" class="text-center">
+  <h2 class="pad-bottom-s">Choose Your Next Adventure</h2>
   <div class="grid-spaceAround">
-    <div class="col-3 outline-turq">
-      <a href="#trek+see"><h3>Trekking with Ethnic Hilltribe Eco Trails</h3></a>
-    </div>
-    <div class="col-3 outline-turq">
-      <a href="#trek+adventure"><h3>Trekking and Sightseeing</h3></a>
-    </div>
-    <div class="col-3 outline-turq">
-      <a href="#trek"><h3>Trekking and Adventure Sports</h3></a>
-    </div>
+    <a href="#trek" class="col-3_md-4_sm-12"><div class="bg-trek">
+      <h3 class="text-choosetour">Trekking with Ethnic Hilltribe Eco Trails</h3>
+    </div></a>
+    <a href="#treksee" class="col-3_md-4_sm-12"><div class="bg-treksee">
+      <h3 class="text-choosetour">Trekking and Sightseeing</h3>
+    </div></a>
+    <a href="#trekadventure" class="col-3_md-4_sm-12"><div class="bg-trekadventure">
+      <h3 class="text-choosetour">Trekking and Adventure Sports</h3>
+    </div></a>
   </div>
 </section>
 <section id="trek">
-  <h2 class="text-center">Trekking with Ethnic Hilltribe Eco Trails</h2>
+  <h2 class="text-center bg-turq text-white pad-all-xs">Trekking with Ethnic Hilltribe Eco Trails</h2>
   <p class="text-center">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
   
-  <div class="grid">
-    <div class="col-9">
-      <h3>tour number one</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <a href="/tours/tournumberone"><button class="button-main">Learn More and Book</button></a>
-    </div>
-    <div class="col-3">
-      <img src="/images/ancient-architecture-asia-878489.jpg"/>
-    </div>
-    <span class="line-dotted-turq"></span>
-  </div>
+    <!-- filter tours based on details in front-matter -->
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
+      <div class="grid">
+        <div class="col-4_md-12">
+          <img src="/images/ancient-architecture-asia-878489.jpg"/>
+        </div>
+        <div class="col-8_md-12 text-center-mobile">
+          <h3>Ethnic Hilltribe Eco Trails - 1 Day Doi Luang</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="/tours/DL1"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    
   
 </section>
-<section id="trek+see">
-  <h2 class="text-center">Trekking and Sightseeing</h2>
+<section id="treksee">
+  <h2 class="text-center bg-turq text-white pad-all-xs">Trekking and Sightseeing</h2>
   <p class="text-center">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
   
-  <div class="grid">
-    <div class="col-9">
-      <h3>tour number one</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <a href="/tours/tournumberone"><button class="button-main">Learn More and Book</button></a>
-    </div>
-    <div class="col-3">
-      <img src="/images/ancient-architecture-asia-878489.jpg"/>
-    </div>
-    <span class="line-dotted-turq"></span>
-  </div>
+    <!-- filter tours based on details in front-matter -->
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
+      <div class="grid">
+        <div class="col-4_md-12">
+          <img src="/images/ancient-architecture-asia-878489.jpg"/>
+        </div>
+        <div class="col-8_md-12 text-center-mobile">
+          <h3>Chiang Dao Cave, Hilltribes, and Sticky Waterfall</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="/tours/CDCS"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
   
 </section>
-<section id="trek+adventure">
-  <h2 class="text-center">Trekking and Adventure Sports</h2>
+<section id="trekadventure">
+  <h2 class="text-center bg-turq text-white pad-all-xs">Trekking and Adventure Sports</h2>
   <p class="text-center">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
   
-  <div class="grid">
-    <div class="col-9">
-      <h3>tour number one</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <a href="/tours/tournumberone"><button class="button-main">Learn More and Book</button></a>
-    </div>
-    <div class="col-3">
-      <img src="/images/ancient-architecture-asia-878489.jpg"/>
-    </div>
-    <span class="line-dotted-turq"></span>
-  </div>
+    <!-- filter tours based on details in front-matter -->
+    
+      <div class="grid">
+        <div class="col-4_md-12">
+          <img src="/images/ancient-architecture-asia-878489.jpg"/>
+        </div>
+        <div class="col-8_md-12 text-center-mobile">
+          <h3>White-Water Rafting</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="/tours/10WWR"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    
   
+    <!-- filter tours based on details in front-matter -->
+    
+  
+    <!-- filter tours based on details in front-matter -->
+    
+  
+</section>
+</section>
+<section class="bg-not-sure">
+  <div class="tear-top">
+    <img src="/images/tear-top.png"/>
+  </div>
 </section>
 
     <footer class="bg-dark grid-center">
-  <div class="col-1 pad-top-xs">
+  <div class="col-1_md-2_sm-4 pad-top-xs">
     <a href="/"><img src="/images/ethnichilltribeecotraillogo.png"/></a>
   </div>
   <h3 class="col-12 text-center">Practicing sustainable tourism and supporting family run businesses</h3>

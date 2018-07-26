@@ -39,12 +39,13 @@ keywords:
       </p>
     </div>
   </div>
+  <a href="#tours"><i class="fa fa-angle-double-down text-big text-turq" aria-hidden="true"></i></a>
 </section>
 <section class="bg-reviews">
   <div class="tear-top">
     <img src="/images/tear-top.png"/>
   </div>
-  <div class="grid">
+  <div class="grid-center">
     <div class="col-6_sm-12 outline-turq bg-trans text-center">
       <h3>True Trekking</h3>
       <p>
@@ -58,33 +59,37 @@ keywords:
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
       </div>
+      <a href="https://www.tripadvisor.com/Attraction_Review-g293917-d12980836-Reviews-Ethnic_Hilltribe_Eco_Trails-Chiang_Mai.html" target="blank"><button class="button-main">Read More Reviews</button></a>
     </div>
   </div>
   <div class="tear-bottom">
     <img src="/images/tear-bottom.png"/>
   </div>
 </section>
-<section>
-  <h2 class="text-center">Featured Tours and Treks</h2>
+<section id="tours">
+  <h2 class="text-center bg-turq text-white pad-all-xs">Featured Tours and Treks</h2>
   <p class="text-center">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
-  {% for tours in site.tours limit: 3 %}
-  <div class="grid">
-    <div class="col-9">
-      <h3>{{tours.title}}</h3>
-      <p>
-        {{tours.description}}
-      </p>
-      <a href="{{tours.url}}"><button class="button-main">Learn More and Book</button></a>
-    </div>
-    <div class="col-3">
-      <img src="{{tours.image}}"/>
-    </div>
-    <span class="line-dotted-turq"></span>
-  </div>
+  {% for tours in site.tours reversed %}
+    <!-- filter tours based on details in front-matter -->
+    {% if tours.showonhome == "show" %}
+      <div class="grid">
+        <div class="col-4_sm-12">
+          <img src="{{tours.image}}"/>
+        </div>
+        <div class="col-8_sm-12">
+          <h3>{{tours.title}}</h3>
+          <p>
+            {{tours.description}}
+          </p>
+          <a href="{{tours.url}}"><button class="button-main">Learn More and Book</button></a>
+        </div>
+        <span class="line-dotted-turq"></span>
+      </div>
+    {% endif %}
   {% endfor %}
   <a href="all-tours"><button class="button-wide">See All Tours</button></a>
 </section>
