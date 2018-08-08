@@ -392,7 +392,7 @@ footer nav a:hover {
     top: 3.2em;
   }
   .tear-top {
-    top: -12vh;
+    top: -13vh;
   }
   .tear-bottom {
     top: 18vh;
@@ -411,6 +411,18 @@ footer nav a:hover {
   }
   .tear-bottom {
     top: 25vh;
+  }
+}
+@media all and (max-width:414px) {
+  .home-title {
+    font-size: 3em;
+    top: 3.5em;
+  }
+}
+@media all and (max-width:375px) {
+  .home-title {
+    font-size: 3em;
+    top: 3em;
   }
 }
 /* tour styles ----------------------------------------- */
