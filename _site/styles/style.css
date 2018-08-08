@@ -413,18 +413,6 @@ footer nav a:hover {
     top: 25vh;
   }
 }
-@media all and (max-width:414px) {
-  .home-title {
-    font-size: 3em;
-    top: 3.5em;
-  }
-}
-@media all and (max-width:375px) {
-  .home-title {
-    font-size: 3em;
-    top: 3em;
-  }
-}
 /* tour styles ----------------------------------------- */
 .bg-half-hero {
   background-repeat: no-repeat;
