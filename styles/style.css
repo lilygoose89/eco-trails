@@ -14,12 +14,11 @@ img {
   padding: 0;
 }
 section {
-  padding: 5% 10%;
+  padding: 0 10%;
 }
 .section-padding {
-  padding: 1% 10%;
+  padding: 0 10%;
 }
-
 @media all and (max-width:1024px) {
 
 }
@@ -138,6 +137,56 @@ button {
 .bg-trans {
   background-color: rgba(255, 255, 255, 0.8);
 }
+.bg-half-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  overflow-y: hidden;
+  z-index: -2;
+}
+.bg-image-between-tears {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  overflow-y: hidden;
+  transform: translateY(-10vh);
+  padding-top: 15vh;
+}
+.bg-image-bottom {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  overflow-y: hidden;
+  transform: translateY(-10vh);
+  padding-top: 15vh;
+}
+.tear-hero-bottom {
+  position: relative;
+  width: 100vw;
+  top: 85vh;
+  z-index: 9;
+}
+.tear-top {
+  position: relative;
+  z-index: 9;
+}
+.tear-bottom {
+  position: relative;
+  z-index: 9;
+  top: -20vh;
+  /* transform: translateY(-20vh); */
+}
+.scoot-up {
+  transform: translateY(-10vh);
+}
+@media all and (max-width:768px) {
+  .tear-hero-bottom {
+    top: 90vh;
+  }
+}
 /* header and nav styles ----------------------------------------- */
 .nav {
   position: absolute;
@@ -185,13 +234,12 @@ nav p {
   padding: 6% 8%;
   min-width: 120px;
   box-shadow: 1px 2px 4px #312D2D;
-  transform: translateY(1.2px);
-  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transition: all 100ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 100ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 .emphasize-button:hover {
   box-shadow: 1px 2px 8px #312D2D;
-  transform: translateY(-1px);
+  transform: scale(1.01);
 }
 /*  MOBILE MENU */
 #mobile-menu {
@@ -218,6 +266,7 @@ nav p {
   position: fixed;
   bottom: 50px;
   right: 20px;
+  z-index: 9999;
 }
 .scroll-to-top-icon {
   font-size: 2em;
@@ -304,7 +353,6 @@ footer nav a:hover {
   border: 2px solid white;
 }
 
-
 /* homepage styles ----------------------------------------- */
 .bg-home-hero {
   background-image: url('/images/eco-trails-hero-BACKground-layer.jpg');
@@ -314,28 +362,6 @@ footer nav a:hover {
   min-height: 100vh;
   overflow-y: hidden;
   z-index: -1;
-}
-.tear-hero-bottom {
-  position: relative;
-  width: 100vw;
-  top: 85vh;
-  z-index: 9;
-}
-.tear-top {
-  position: relative;
-  /* opacity: 0.5; */
-  width: 100vw;
-  top: -18vh;
-  left: -10vw;
-  z-index: 9;
-}
-.tear-bottom {
-  position: relative;
-  /* opacity: 0.5; */
-  width: 100vw;
-  top: 25vh;
-  left: -10vw;
-  z-index: 9;
 }
 .home-title {
   font-size: 8em;
@@ -360,30 +386,17 @@ footer nav a:hover {
 }
 .bg-reviews {
   background-image: url('/images/background-bench-cliff-733036.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  overflow-y: hidden;
 }
 .tripadvisor {
   max-width: 250px;
 }
 .bg-pick-date {
   background-image: url('/images/water-buffalo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  overflow-y: hidden;
 }
 @media all and (max-width:1024px) {
   .home-title {
     font-size: 6em;
     top: 1.2em;
-  }
-  .tear-top {
-    top: -10vh;
   }
 }
 @media all and (max-width:768px) {
@@ -391,26 +404,11 @@ footer nav a:hover {
     font-size: 4em;
     top: 3.2em;
   }
-  .tear-top {
-    top: -13vh;
-  }
-  .tear-bottom {
-    top: 18vh;
-  }
-  .tear-hero-bottom {
-    top: 90vh;
-  }
 }
 @media all and (max-width:576px) {
   .home-title {
     font-size: 3em;
     top: 4em;
-  }
-  .tear-top {
-    top: -5vh;
-  }
-  .tear-bottom {
-    top: 25vh;
   }
 }
 @media all and (max-width:414px) {
@@ -426,14 +424,6 @@ footer nav a:hover {
   }
 }
 /* tour styles ----------------------------------------- */
-.bg-half-hero {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 60vh;
-  overflow-y: hidden;
-  z-index: -2;
-}
 .tour-intro {
   min-height: 40vh;
   position: relative;
@@ -484,21 +474,22 @@ footer nav a:hover {
 }
 .bg-not-sure {
   background-image: url('/images/jungle.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 80vh;
-  overflow-y: hidden;
 }
 
 /* all tours page styles */
-.bg-tours-half-hero {
+.bg-tours {
   background-image: url('/images/cascade-chiang-mai-doi-inthanon-130155.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 60vh;
-  overflow-y: hidden;
+}
+
+/* about page styles */
+.bg-about {
+  background-image: url('/images/background-clouds-countryside-733031.jpg');
+}
+.bg-fam {
+  background-image: url('/images/kischafam.jpg');
+}
+.bg-impact {
+  background-image: url('/images/dsc-0814-jpg_orig.jpg');
 }
 
 /* post styles ----------------------------------------- */
