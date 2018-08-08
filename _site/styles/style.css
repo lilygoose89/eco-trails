@@ -13,6 +13,10 @@ img {
   margin: 0;
   padding: 0;
 }
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 section {
   padding: 0 10%;
 }
@@ -154,13 +158,34 @@ button {
   transform: translateY(-10vh);
   padding-top: 15vh;
 }
-.bg-image-bottom {
+/* .bg-image-bottom {
+  position: relative;
+  top: -10vh;
+  left: -10%;
+  width: 120%;
+  height: 80vh;
+  z-index: -1;
+} */
+/* .bg-image-bottom {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 80vh;
-  overflow-y: hidden;
   transform: translateY(-10vh);
+  padding-top: 15vh;
+} */
+.bg-image-bottom {
+  height: 75vh;
+}
+.bg-image-bottom-container {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -10vh;
+  left: -20%;
+  width: 140%;
+  height: 85vh;
+  z-index: -1;
   padding-top: 15vh;
 }
 .tear-hero-bottom {
@@ -177,7 +202,6 @@ button {
   position: relative;
   z-index: 9;
   top: -20vh;
-  /* transform: translateY(-20vh); */
 }
 .scoot-up {
   transform: translateY(-10vh);
@@ -185,6 +209,15 @@ button {
 @media all and (max-width:768px) {
   .tear-hero-bottom {
     top: 90vh;
+  }
+  .tear-top {
+    top: -5vh;
+  }
+  .tear-bottom {
+    position: relative;
+    z-index: 9;
+    top: -15vh;
+    /* transform: translateY(-20vh); */
   }
 }
 /* header and nav styles ----------------------------------------- */
@@ -472,13 +505,13 @@ footer nav a:hover {
   width: 100%;
   overflow-y: hidden;
 }
-.bg-not-sure {
-  background-image: url('/images/jungle.jpg');
-}
 
 /* all tours page styles */
 .bg-tours {
   background-image: url('/images/cascade-chiang-mai-doi-inthanon-130155.jpg');
+}
+.bg-not-sure {
+  background-image: url('/images/jungle.jpg');
 }
 
 /* about page styles */
@@ -491,6 +524,7 @@ footer nav a:hover {
 .bg-impact {
   background-image: url('/images/dsc-0814-jpg_orig.jpg');
 }
+
 
 /* post styles ----------------------------------------- */
 
