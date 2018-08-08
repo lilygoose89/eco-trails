@@ -18,10 +18,10 @@ body {
   overflow-x: hidden;
 }
 section {
-  padding: 0 10%;
+  padding: 0 15%;
 }
 .section-padding {
-  padding: 0 10%;
+  padding: 0 15%;
 }
 @media all and (max-width:1024px) {
 
@@ -42,6 +42,10 @@ h1 {
 h2,h3,h4 {
   font-family: 'Oswald', sans-serif;
   color: #3ca79a;
+}
+h6 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
 }
 p,ul,li {
   font-family: 'Roboto', sans-serif;
@@ -103,7 +107,7 @@ button {
   /* padding: 0.5% 1.5%;
   border-radius: 45px; */
   padding: 1% 3%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
   color: #3ca79a;
   border: 2px solid #3ca79a;
   border-radius: 45px;
@@ -182,8 +186,8 @@ button {
   background-position: center;
   position: relative;
   top: -10vh;
-  left: -20%;
-  width: 140%;
+  left: -25%;
+  width: 150%;
   height: 85vh;
   z-index: -1;
   padding-top: 15vh;
@@ -525,10 +529,140 @@ footer nav a:hover {
   background-image: url('/images/dsc-0814-jpg_orig.jpg');
 }
 
+/* gallery page styles */
+.masonry-layout {
+  column-count: 3;
+  column-gap: 0;
+}
+.masonry-container {
+  break-inside: avoid;
+}
+.masonry-content {
+  background-color: #3ca79a;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+.masonry-content:hover {
+  box-shadow: 2px 3px 10px #312D2D;
+  -webkit-transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transitiion: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
+  -ms-transitiion: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transitiion: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+/* * pop-up overlay  */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0,0,0,0.8);
+}
+/* show the pop-up modal when clicked */
+.show {
+  display: inline-block;
+}
+/* modal content */
+.modal-content {
+  text-align: center;
+  margin: 2%;
+}
+.full-screen-image {
+  height: 82vh;
+  width: auto;
+  padding: 0;
+}
+/* contact and faqs page styles */
+.bg-contact {
+  background-image: url('/images/buffalo-on-the-rice-field-3344519_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-y: hidden;
+  z-index: -2;
+}
+.contact-container {
+  margin: 140px 18% 0 18%;
+  padding: 2% 5% 5% 2%;
+}
+.tear-bottom-contact {
+  position: relative;
+  width: 100vw;
+  top: -1vh;
+  z-index: 9;
+}
+@media all and (max-width:1024px) {
+  .contact-container {
+    margin: 130px 10% 0 10%;
+  }
+  .tear-bottom-contact {
+    top: 4vh;
+  }
+}
+@media all and (max-width:768px) {
+  .bg-contact {
+    height: 100%;
+  }
+  .contact-container {
+    margin: 140px 8% 5% 8%;
+    padding: 1% 2% 2% 1%;
+  }
+  .tear-bottom-contact {
+    top: 2vh;
+  }
+}
+@media all and (max-width:576px) {
+
+}
+@media all and (max-width:414px) {
+
+}
+/* form styles ----------------------------------------- */
+.feedback-input {
+	color:#000;
+  font-weight:300;
+	font-size: 14px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: transparent;
+	padding: 13px 13px 13px 13px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #000;
+}
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	color: #000;
+	outline: none;
+  padding: 13px 13px 13px 13px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: none;
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
 
 /* post styles ----------------------------------------- */
 
-/* form styles ----------------------------------------- */
 
 /* helpers ----------------------------------------- */
 .smooth {

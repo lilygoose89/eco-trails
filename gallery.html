@@ -1,3 +1,33 @@
 ---
 layout: default
+title: Photo Gallery | Ethnic Hilltribe Eco Trails
+description:
+keywords:
+photos:
+  - image: /images/agricultural-agriculture-asia-730424.jpg
+    alt: farm fields
+    id: 1
+  - image: /images/tours-trek.jpg
+    alt: girl smiling sitting on rock on top of mountain with view behind her
+    id: 2
 ---
+<section class="pad-top-m pad-bottom-s">
+  <h1 class="text-center">Journey off the beaten path with us...</h1>
+  <div class="masonry-layout">
+    {% for photos in page.photos %}
+    <div class="masonry-container">
+      <div class="masonry-content">
+        <a id="{{photos.id}}" class="click-full-screen" ><img src="{{photos.image}}" alt="{{photos.alt}}"/></a>
+      </div>
+    </div>
+    <!-- popup modal not shown by default -->
+    <div id="{{photos.id}}Modal" class="modal">
+      <div class="modal-content grid">
+        <span class="close col-12 text-right"><i class="fa fa-times text-white text-big" aria-hidden="true"></i></span>
+        <img src="{{photos.image}}" alt="{{photos.alt}}" class="full-screen-image col-12"/>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <a href="all-tours"><button class="button-wide margin-top-s margin-left-xs margin-right-xs">Book a Tour</button></a>
+</section>
