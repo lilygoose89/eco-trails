@@ -1,6 +1,7 @@
 /* universal styles ----------------------------------------- */
 * {
   box-sizing: border-box;
+  /* border: solid 1px powderblue; */
 }
 img {
   max-width: 100%;
@@ -51,6 +52,12 @@ p,ul,li {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #617281;
+}
+.p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #617281;
+  font-size: 0.9em;
 }
 .text-center {
   text-align: center;
@@ -552,6 +559,17 @@ footer nav a:hover {
   -o-transitiion: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
 }
+/* @media all and (max-width:576px) {
+  }
+  .masonry-layout {
+    column-count: 2;
+  }
+}
+@media all and (max-width:331px) {
+  .masonry-layout {
+    column-count: 1;
+  }
+} */
 /* * pop-up overlay  */
 .modal {
   display: none;
@@ -576,7 +594,7 @@ footer nav a:hover {
 .full-screen-image {
   height: 82vh;
   width: auto;
-  padding: 0;
+  margin: 0 auto;
 }
 /* contact and faqs page styles */
 .bg-contact {
@@ -661,7 +679,69 @@ input:focus, textarea:focus {
 	background-color:white;
 }
 
-/* post styles ----------------------------------------- */
+/* tour layout styles ----------------------------------------- */
+.toggle:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.toggle .toggle-title {
+  /* position: relative; */
+  /* display: block; */
+  border-top: 1px solid #dddddd;
+  /* margin-bottom: 6px; */
+}
+.toggle .toggle-title h3 {
+  /* font-size: 20px; */
+  margin: 0;
+  line-height: 1;
+  cursor: pointer;
+  /* font-weight: 200; */
+}
+.toggle .toggle-inner {
+  padding: 0 1% 1% 5%;
+  display: none;
+  /* margin: -7px 0 6px; */
+}
+/* .toggle .toggle-inner div {
+  max-width: 100%;
+} */
+.toggle .toggle-title .title-name {
+  /* display: block; */
+  padding: 10% 1% 5% 5%;
+}
+.toggle .toggle-title i {
+  transform: rotate(0.13turn);
+  padding: 8%;
+  /* position: relative;
+  top: 2.2em;
+  left: -5px; */
+  transition: all 0.3s ease;
+}
+.toggle .toggle-title.active i {
+  display: none;
+}
+/* .toggle .toggle-title a i {
+  font-size: 22px;
+  margin-right: 5px;
+}
+.toggle .toggle-title i {
+  position: absolute;
+  background: url("http://curiouslychris.com/cdn/plus_minus.png") 0px -24px no-repeat;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
+  margin: 20px;
+  right: 0;
+}
+.toggle .toggle-title.active i {
+  background: url("http://curiouslychris.com/cdn/plus_minus.png") 0px 0px no-repeat;
+} */
+/* blog page styles ----------------------------------------- */
+
+
+/* post list layout styles ----------------------------------------- */
+
+
+/* post layout styles ----------------------------------------- */
 
 
 /* helpers ----------------------------------------- */
