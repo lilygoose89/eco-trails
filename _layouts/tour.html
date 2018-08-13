@@ -2,11 +2,12 @@
 layout: default
 _hide_content: true
 ---
+
 <header>
   <!-- this is the half-height header hero with paper tear underneath -->
   <div class="bg-half-hero" style="background-image: url('{{page.featuredimage}}');"></div>
   <div class="tear-half-hero-bottom">
-    <img src="/images/tear-hero-bottom.png"/>
+    <img src="/images/tear-hero-bottom.png" />
   </div>
   <!-- this is the tour introduction that appears above the fold -->
   <div class="tour-intro text-center section-padding">
@@ -83,11 +84,11 @@ _hide_content: true
     <h2>Itinerary:</h2>
     <div class="editable">
       <ol>
-        {% for itinerary in page.itinerary %}
-        <li>
-          {{itinerary.item}}
-        </li>
-        {% endfor %}
+        <li>Drive to local market to pick up supplies for the hike.</li>
+        <li>Head to Doi Luang National Park. The drive will take approximately one and a half hours.</li>
+        <li>Arrive at starting point for the hike to the summit. The hike will take approximately 4 to 5 hours to reach the peak. The trail to the peak is incredibly scenic with panoramic views.</li>
+        <li>Reach the summit and experience the beauty of Chiang Dao, an incredible 230-250 million year-old limestone massif in the Daen Lao Range, which rises abruptly and impressively from the plains below where Chiang Dao town is located. Chiang Dao translates to the City of Stars, a reference to the high peaks and elevations in the immediate area.</li>
+        <li>Begin your 4 hour descent back down the mountainside through the rainforest enjoying the views and nature. We will take the trail through Keawlom which is diverse in flower species until we reach the end point.</li>
       </ol>
     </div>
     <h2>Notes:</h2>
@@ -101,14 +102,14 @@ _hide_content: true
     {% for moreimages in page.moreimages %}
     <div class="masonry-container">
       <div class="masonry-content">
-        <a id="{{moreimages.id}}" class="click-full-screen" ><img src="{{moreimages.image}}" alt="{{moreimages.alt}}"/></a>
+        <a id="{{moreimages.id}}" class="click-full-screen"><img src="{{moreimages.image}}" alt="{{moreimages.alt}}" /></a>
       </div>
     </div>
     <!-- popup modal not shown by default -->
     <div id="{{moreimages.id}}Modal" class="modal">
       <div class="modal-content grid">
         <span class="close col-12 text-right"><i class="fa fa-times text-white text-big" aria-hidden="true"></i></span>
-        <img src="{{moreimages.image}}" alt="{{moreimages.alt}}" class="full-screen-image"/>
+        <img src="{{moreimages.image}}" alt="{{moreimages.alt}}" class="full-screen-image" />
       </div>
     </div>
     {% endfor %}
