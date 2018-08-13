@@ -35,7 +35,7 @@ itinerary:
       Head to Doi Luang National Park. The drive will take approximately one and
       a half hours.
   - item: >-
-      Arrive at starting point for the hike to the Summit. The hike will take
+      Arrive at starting point for the hike to the summit. The hike will take
       approximately 4 to 5 hours to reach the peak. The trail to the peak is
       incredibly scenic with panoramic views.
   - item: >-
@@ -48,6 +48,7 @@ itinerary:
       Begin your 4 hour descent back down the mountainside through the
       rainforest enjoying the views and nature. We will take the trail through
       Keawlom which is diverse in flower species until we reach the end point.
+  - item: Return to Chiang Mai.
 notes:
 moreimages:
   - image: /images/doiluang1.jpg
