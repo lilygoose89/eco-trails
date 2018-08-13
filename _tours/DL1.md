@@ -52,43 +52,43 @@ itinerary:
 notes:
 moreimages:
   - image: /images/doiluang1.jpg
-    alt:
+    alt: fluffy cloud over summit of doi luang mountain at sunrise
     id: 1
   - image: /images/doiluang2.jpg
-    alt:
+    alt: green peak of doi luang
     id: 2
   - image: /images/doiluang3.jpg
-    alt:
+    alt: hikers celebrate at top of doi luang trail summit
     id: 3
   - image: /images/doiluang4.jpg
-    alt:
+    alt: hiker walking up hill past rocky terrain
     id: 4
   - image: /images/doiluang5.jpg
-    alt:
+    alt: scenic overlook at summit of doi luang trail
     id: 5
   - image: /images/doiluang6.jpg
-    alt:
+    alt: view of valley and clouds from summit of doi luang
     id: 6
   - image: /images/doiluang7.jpg
-    alt:
+    alt: hikers trekking across rocky terrain
     id: 7
   - image: /images/doiluang8.jpg
-    alt:
+    alt: trees and peak of doi luang summit
     id: 8
   - image: /images/doiluang9.jpg
-    alt:
+    alt: hiker takes a break while trekking rocky trail
     id: 9
   - image: /images/doiluang10.jpg
-    alt:
+    alt: flowers bloom at summit of doi luang as sun rises
     id: 10
   - image: /images/doiluang11.jpg
-    alt:
+    alt: man treks towards peak of doi luang in the distance
     id: 11
   - image: /images/doiluang12.jpg
-    alt:
+    alt: peak of doi luang
     id: 12
   - image: /images/doiluang13.jpg
-    alt:
+    alt: peak of doi luang
     id: 13
 ---
 
