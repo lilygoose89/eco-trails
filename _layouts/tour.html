@@ -10,30 +10,30 @@ _hide_content: true
     <img src="/images/tear-hero-bottom.png" />
   </div>
   <!-- this is the tour introduction that appears above the fold -->
-  <div class="tour-intro text-center section-padding">
+  <div class="tour-intro text-center section-padding pad-bottom-s">
     <h1>{{page.title}}</h1>
     <p>{{page.description}}</p>
     <a><button class="button-wide">Book Now →</button></a>
-    <a href="#info"><i class="fa fa-angle-double-down text-big text-turq pad-top-xs" aria-hidden="true"></i></a>
+    <!-- <a href="#info"><i class="fa fa-angle-double-down text-big text-turq pad-top-xs" aria-hidden="true"></i></a> -->
   </div>
 </header>
 <section id="info" class="section-padding grid-spaceBetween">
-  <div class="col-3_md-4_sm-12">
+  <div class="col-4_md-4_sm-12">
     <!-- this is my "quick facts" box which pulls text from front-matter-->
     <div class="outline-turq pad-all-s margin-bottom-s">
-      <h2>Quick Facts</h2>
-      <h3>Price:<span class="p"> {{page.price}}</span></h3>
-      <h3>Duration:<span class="p"> {{page.duration}}</span></h3>
-      <h3>Meal(s):<span class="p"> {{page.meals}}</span></h3>
-      <h3>Difficulty:<span class="p"> {{page.difficulty}}</span></h3>
-      <h3>Seasonal:<span class="p"> {{page.seasonal}}</span></h3>
+      <h4>Quick Facts</h4>
+      <h5>Price:<span class="p"> {{page.price}}</span></h5>
+      <h5>Duration:<span class="p"> {{page.duration}}</span></h5>
+      <h5>Meal(s):<span class="p"> {{page.meals}}</span></h5>
+      <h5>Difficulty:<span class="p"> {{page.difficulty}}</span></h5>
+      <h5>Seasonal:<span class="p"> {{page.seasonal}}</span></h5>
     </div>
     <!-- this is my "more info" box which pulls text from front-matter  -->
     <div class="outline-turq">
-      <h2 class="pad-all-s">More Info</h2>
+      <h4 class="pad-all-s">More Info</h4>
       <div class="toggle">
         <div class="toggle-title grid-spaceBetween">
-          <h3 class="title-name col-10">Pick Up & Drop Off</h3>
+          <h5 class="title-name col-10">Pick Up & Drop Off</h5>
           <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
         </div>
         <div class="toggle-inner">
@@ -42,7 +42,7 @@ _hide_content: true
       </div>
       <div class="toggle">
         <div class="toggle-title grid-spaceBetween">
-          <h3 class="title-name col-10">Included</h3>
+          <h5 class="title-name col-10">Included</h5>
           <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
         </div>
         <div class="toggle-inner">
@@ -51,7 +51,7 @@ _hide_content: true
       </div>
       <div class="toggle">
         <div class="toggle-title grid-spaceBetween">
-          <h3 class="title-name col-10">Not Included</h3>
+          <h5 class="title-name col-10">Not Included</h5>
           <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
         </div>
         <div class="toggle-inner">
@@ -60,7 +60,7 @@ _hide_content: true
       </div>
       <div class="toggle">
         <div class="toggle-title grid-spaceBetween">
-          <h3 class="title-name col-10">What to Bring</h3>
+          <h5 class="title-name col-10">What to Bring</h5>
           <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
         </div>
         <div class="toggle-inner">
@@ -70,8 +70,8 @@ _hide_content: true
     </div>
   </div>
   <!-- this is the  main content block for the tour page -->
-  <div class="col-8_md-7_sm-12">
-    <h2>Highlights</h2>
+  <div class="col-7_md-7_sm-12">
+    <h4>Highlights</h4>
     <div>
       <ul>
         {% for highlights in page.highlights %}
@@ -81,7 +81,7 @@ _hide_content: true
         {% endfor %}
       </ul>
     </div>
-    <h2>Itinerary:</h2>
+    <h4>Itinerary:</h4>
     <div>
       <ol>
         {% for itinerary in page.itinerary %}
@@ -91,13 +91,13 @@ _hide_content: true
         {% endfor %}
       </ol>
     </div>
-    <h2>Notes:</h2>
+    <h4>Notes:</h4>
     <p>{{page.notes}}</p>
   </div>
 </section>
 <section>
   <a><button class="button-wide margin-bottom-s">Book Now →</button></a>
-  <h2 class="text-center">{{page.title}}</h2>
+  <h4 class="text-center">{{page.title}}</h4>
   <div class="masonry-layout">
     {% for moreimages in page.moreimages %}
     <div class="masonry-container">

@@ -35,14 +35,34 @@ section {
 }
 
 /* typography ----------------------------------------- */
+
 h1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 3em;
+  font-size: 2.7em;
   color: #3ca79a;
 }
-h2,h3,h4 {
+h2 {
   font-family: 'Oswald', sans-serif;
   color: #3ca79a;
+  font-size: 1.8em;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #3ca79a;
+  font-size: 1.5em;
+}
+h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #3ca79a;
+  font-size: 1.5em;
+}
+h5 {
+  font-family: 'Oswald', sans-serif;
+  color: #3ca79a;
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 h6 {
   font-family: 'Oswald', sans-serif;
@@ -51,8 +71,10 @@ h6 {
 p,ul,li {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
+  font-size: 1.1em;
   color: #617281;
 }
+
 .p {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
@@ -126,7 +148,7 @@ button {
 }
 /* container styles ----------------------------------------- */
 .outline-turq {
-  border: 4px solid #3ca79a;
+  border: 2px solid #3ca79a;
 }
 .outline-white {
   border: 2px solid white;
@@ -207,12 +229,13 @@ button {
 }
 .tear-top {
   position: relative;
+  top: 2vh;
   z-index: 9;
 }
 .tear-bottom {
   position: relative;
   z-index: 9;
-  top: -20vh;
+  top: -22vh;
 }
 .scoot-up {
   transform: translateY(-10vh);
@@ -487,7 +510,7 @@ footer nav a:hover {
 .text-choosetour {
   color: white;
   font-size: 3em;
-  padding: 6% 2% 4% 2%;
+  padding: 6% 4% 4% 4%;
 }
 .bg-trek {
   background: linear-gradient(rgba(60, 165, 154, 0.7), rgba(60, 165, 154, 0.7)), url('/images/tours-trek2.jpg');
@@ -706,11 +729,11 @@ input:focus, textarea:focus {
 } */
 .toggle .toggle-title .title-name {
   /* display: block; */
-  padding: 10% 1% 5% 5%;
+  padding: 6% 1% 5% 5%;
 }
 .toggle .toggle-title i {
-  transform: rotate(0.13turn);
-  padding: 8%;
+  transform: rotate(0.125turn);
+  padding: 7%;
   /* position: relative;
   top: 2.2em;
   left: -5px; */
