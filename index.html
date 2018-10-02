@@ -12,8 +12,8 @@ keywords:
   </div>
 </header>
 <section class="text-center">
-  <h2 class="editable">Eco Tours and Treks in Northern Thailand</h2>
-  <p class="editable">
+  <h2>Eco Tours and Treks in Northern Thailand</h2>
+  <p>
     Welcome to your next adventure! Ethnic Hilltribe Eco Trails is a small, family-run tour operator offering eco tours and treks around Chiang Mai, Thailand. We take travelers on authentic and breath-taking journeys through the unspoiled jungles and hills of Pha Daeng in Chiang Dao, Doi Inthanon in Chiang Mai and more.</br>
     </br>We don't do your typical hikes, instead, we take you on a Karen hilltribe style jungle walk, creating your own path, immersing yourself in the forest, and getting to know the local culture. If you're looking to get away from the tourist experience and explore nature like a true native, then you've come to the right place.
   </p>
@@ -80,16 +80,16 @@ keywords:
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
   {% for tours in site.tours reversed %}
     <!-- filter tours based on details in front-matter -->
-    {% if tours.showonhome == "show" %}
+    {% if tours.featured == true %}
       <div class="grid">
-        <div class="col-4_sm-12">
-          <img src="{{tours.image}}"/>
+        <div class="col-4_sm-12 preview-image" style="background-image: url({{tours.image}})">
         </div>
-        <div class="col-8_sm-12">
+        <div class="col-8_sm-12 pad-left-s">
           <h3>{{tours.title}}</h3>
           <p>
             {{tours.description}}
           </p>
+          <h5 class="pad-bottom-s">Starting at {{tours.price}} per person</h5>
           <a href="{{tours.url}}"><button class="button-main">Learn More and Book</button></a>
         </div>
         <span class="line-dotted-turq"></span>

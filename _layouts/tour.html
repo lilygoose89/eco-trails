@@ -68,6 +68,9 @@ _hide_content: true
         </div>
       </div>
     </div>
+    <p style="font-size: 0.9em;">
+      Please support our mission by booking your trek directly with us on this site or by <a href="/contact">calling us</a> instead of through a tour agency.
+    </p>
   </div>
   <!-- this is the  main content block for the tour page -->
   <div class="col-7_md-7_sm-12">
@@ -83,13 +86,13 @@ _hide_content: true
     </div>
     <h4>Itinerary:</h4>
     <div>
-      <ol>
+      <ul>
         {% for itinerary in page.itinerary %}
         <li>
           {{itinerary.item}}
         </li>
         {% endfor %}
-      </ol>
+      </ul>
     </div>
     <h4>Notes:</h4>
     <p>{{page.notes}}</p>

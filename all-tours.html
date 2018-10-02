@@ -12,32 +12,32 @@ keywords:
   </div>
   <!-- this is the tour introduction that appears above the fold -->
   <div class="tour-intro text-center section-padding">
-    <h1>Our Tours and Treks</h1>
-    <p class="text-center">
-      Join us for eco treks and nature tours in northern Thailand. We'll pick you up from your hotel or residence in Chiang Mai and take you on an adventure in the great outdoors. Choose from one of our signature one or two-day treks, or add some sightseeing or adventure sports to your experience.
+    <h1 class="editable">Our Tours and Treks</h1>
+    <p class="editable text-center">
+      Join us for eco treks and nature tours in northern Thailand. We'll pick you up from your hotel or residence in Chiang Mai and take you on an adventure in the great outdoors. Choose from our signature one or two-day treks or add some sightseeing to your experience. We offer challenging treks for the super-active, as well as gentler treks for families.
     </p>
     <!-- <a><button class="button-wide">Book Now →</button></a> -->
     <a href="#choose"><i class="fa fa-angle-double-down text-big text-turq" aria-hidden="true"></i></a>
   </div>
 </header>
 <section id="choose" class="text-center">
-  <h2 class="pad-bottom-s">Choose Your Next Adventure</h2>
+  <h2 class="editable pad-bottom-s">Choose Your Next Adventure</h2>
   <div class="grid-spaceAround">
     <a href="#trek" class="col-3_md-4_sm-12"><div class="bg-trek">
-      <h3 class="text-choosetour">Trekking Ethnic Hilltribe Eco Trails</h3>
+      <h3 class="editable text-choosetour">Trekking Ethnic Hilltribe Eco Trails</h3>
     </div></a>
     <a href="#treksee" class="col-3_md-4_sm-12"><div class="bg-treksee">
-      <h3 class="text-choosetour">Trekking and Sightseeing</h3>
+      <h3 class="editable text-choosetour">Trekking and Sightseeing</h3>
     </div></a>
-    <a href="#trekadventure" class="col-3_md-4_sm-12"><div class="bg-trekadventure">
-      <h3 class="text-choosetour">Trekking and Adventure Sports</h3>
+    <a href="#trekfamily" class="col-3_md-4_sm-12"><div class="bg-trekfamily">
+      <h3 class="editable text-choosetour">Trekking and Family-Friendly Fun</h3>
     </div></a>
   </div>
 </section>
 <section id="trek" class="pad-top-m">
-  <h2 class="text-center bg-turq text-white pad-all-xs">Trekking with Ethnic Hilltribe Eco Trails</h2>
-  <p class="text-center">
-    Join us on a signature Ethnic Hilltribe Eco Trails trek. We explore off-the-beaten path and show you to the heart of the rainforest, visiting hidden waterfalls and remote hilltribe villages along the way. Hike to the top of northern Thailand's scenic hills with us and see spectacular views of this beautiful country. We carve our own paths, so treks can be adjusted to challenge active adventurers or suit families and groups with mixed fitness levels.
+  <h2 class="editable text-center bg-turq text-white pad-all-xs">Trekking with Ethnic Hilltribe Eco Trails</h2>
+  <p class="editable text-center">
+    Join us on a signature Ethnic Hilltribe Eco Trails trek. We explore off the beaten path and show you the heart of the rainforest, visiting hidden waterfalls and remote hilltribe villages along the way. Hike to the top of northern Thailand's scenic hills with us and see spectacular views of this beautiful country. We carve our own paths, so treks can be adjusted to challenge active adventurers or suit groups with mixed fitness levels.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
@@ -45,14 +45,14 @@ keywords:
     <!-- filter tours based on details in front-matter -->
     {% if tours.tourgroup == "trek" %}
       <div class="grid">
-        <div class="col-4_md-12">
-          <img src="{{tours.image}}"/>
+        <div class="col-4_md-12 preview-image" style="background-image: url({{tours.image}})">
         </div>
-        <div class="col-8_md-12 text-center-mobile">
+        <div class="col-8_md-12 text-center-mobile pad-left-s">
           <h3>{{tours.title}}</h3>
           <p>
             {{tours.description}}
           </p>
+          <h5 class="pad-bottom-s">Starting at {{tours.price}} per person</h5>
           <a href="{{tours.url}}"><button class="button-main">Learn More and Book</button></a>
         </div>
         <span class="line-dotted-turq"></span>
@@ -61,8 +61,8 @@ keywords:
   {% endfor %}
 </section>
 <section id="treksee" class="pad-top-m">
-  <h2 class="text-center bg-turq text-white pad-all-xs">Trekking and Sightseeing</h2>
-  <p class="text-center">
+  <h2 class="editable text-center bg-turq text-white pad-all-xs">Trekking and Sightseeing</h2>
+  <p class="editable text-center">
     Discover some of the best hidden gems and spectacular sights in northern Thailand's National Parks. Combine eco trekking and sightseeing to make the most of your day with us. We'll arrange all the transportation and conveniences and you can rest easy knowing you're in for a unique outdoor experience.
   </p>
   <span class="line-dotted-turq"></span>
@@ -71,14 +71,14 @@ keywords:
     <!-- filter tours based on details in front-matter -->
     {% if tours.tourgroup == "see" %}
       <div class="grid">
-        <div class="col-4_md-12">
-          <img src="{{tours.image}}"/>
+        <div class="col-4_md-12 preview-image" style="background-image: url({{tours.image}})">
         </div>
-        <div class="col-8_md-12 text-center-mobile">
+        <div class="col-8_md-12 text-center-mobile pad-left-s">
           <h3>{{tours.title}}</h3>
           <p>
             {{tours.description}}
           </p>
+          <h5 class="pad-bottom-s">Starting at {{tours.price}} per person</h5>
           <a href="{{tours.url}}"><button class="button-main">Learn More and Book</button></a>
         </div>
         <span class="line-dotted-turq"></span>
@@ -86,25 +86,25 @@ keywords:
     {% endif %}
   {% endfor %}
 </section>
-<section id="trekadventure" class="pad-top-m pad-bottom-m">
-  <h2 class="text-center bg-turq text-white pad-all-xs">Trekking and Adventure Sports</h2>
-  <p class="text-center">
-    For those with a thirst for adventure, join us for trekking, white-water rafting - or both! These experiences are designed for active explorers and can be adjusted to suit all fitness levels. Our trained and certified guides have both safety and fun in mind and will make sure you're well taken care of so you can focus on the thrill and excitement.
+<section id="trekfamily" class="pad-top-m pad-bottom-m">
+  <h2 class="editable text-center bg-turq text-white pad-all-xs">Trekking and Family-Friendly Fun</h2>
+  <p class="editable text-center">
+    While a once in a lifetime outdoor adventure for anybody, these treks also happen to be perfect for families or groups with mixed fitness levels. Combine eco-trekking with soft-adventure activities like bamboo river rafting and see some of northern Thailand's most spectacular sights.
   </p>
   <span class="line-dotted-turq"></span>
   <!-- this is a repeating array which pulls content from front-matter of tour pages -->
   {% for tours in site.tours %}
     <!-- filter tours based on details in front-matter -->
-    {% if tours.tourgroup == "adventure" %}
+    {% if tours.tourgroup == "family" %}
       <div class="grid">
-        <div class="col-4_md-12">
-          <img src="{{tours.image}}"/>
+        <div class="col-4_md-12 preview-image" style="background-image: url({{tours.image}})">
         </div>
-        <div class="col-8_md-12 text-center-mobile">
+        <div class="col-8_md-12 text-center-mobile pad-left-s">
           <h3>{{tours.title}}</h3>
           <p>
             {{tours.description}}
           </p>
+          <h5 class="pad-bottom-s">Starting at {{tours.price}} per person</h5>
           <a href="{{tours.url}}"><button class="button-main">Learn More and Book</button></a>
         </div>
         <span class="line-dotted-turq"></span>

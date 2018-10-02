@@ -68,10 +68,18 @@ h6 {
   font-family: 'Oswald', sans-serif;
   color: white;
 }
-p,ul,li {
+p {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   font-size: 1.1em;
+  color: #617281;
+}
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 1.1em;
+  line-height: 1.5;
+  padding-bottom: 0.5em;
   color: #617281;
 }
 
@@ -79,7 +87,7 @@ p,ul,li {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #617281;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .text-center {
   text-align: center;
@@ -239,6 +247,14 @@ button {
 }
 .scoot-up {
   transform: translateY(-10vh);
+}
+.preview-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+  min-height: 350px;
+  padding-right: 1%;
 }
 @media all and (max-width:768px) {
   .tear-hero-bottom {
@@ -530,8 +546,8 @@ footer nav a:hover {
   width: 100%;
   overflow-y: hidden;
 }
-.bg-trekadventure {
-  background: linear-gradient(rgba(60, 165, 154, 0.7), rgba(60, 165, 154, 0.7)), url('/images/tours-adventure.jpg');
+.bg-trekfamily {
+  background: linear-gradient(rgba(60, 165, 154, 0.7), rgba(60, 165, 154, 0.7)), url('/images/tours-family.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
