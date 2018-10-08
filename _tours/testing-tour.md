@@ -1,0 +1,104 @@
+---
+layout: tour
+title: Testing Tour
+description: >-
+  Experience a completely off the beaten track hiking trail in some of Chiang
+  Mai, Northern Thailand's most beautiful National Parks.  Pha Daeng National
+  Park in Chiang Dao. Rich in fauna and flora. Incredibly scenic and non
+  touristic. Here you will hike one of a kind special hiking trails. Hiking 4 -
+  5 hours through the heart of the rain forests. Visit waterfalls, view points
+  and on the 2 day trails we will take you to sleep in a hilltribe village in
+  the Mountains of Pha Daeng National Park..
+code: CD1
+tripkey: 27929
+tourgroup: trek
+featured:
+image: /uploads/chiangdao20.JPG
+price: 'THB 1,900'
+duration: 1 day
+meals: Lunch
+difficulty: 'Medium, has a mix of uphills and downhills'
+seasonal: November - February
+pickupdropoff: >-
+  Pick up from your hotel between 7.30 am to 8.00 am. Drop off  in Chiang Mai
+  around 18.00
+included: >-
+  Round transfer from hotel, lunch, water, english speaking guide, park fees and
+  insurance
+notincluded: Extra snacks and soft drinks
+whattobring: >-
+  Wear shoes with grip suitable for trekking and climbing, swimsuit for enjoying
+  at the waterfall and pack a warm layer, mornings can be chilly at the summit.
+highlights:
+  - highlight: Enjoying the beauty of waterfalls
+  - highlight: Explore Pha Daeng National Park
+itinerary:
+  - item: >-
+      Pick up from your hotel between 7.30 am to 8.00 am,  drive 1 and a half
+      hours to Chiang Dao National park.
+  - item: Stopping at a local market along the journey to get supplies
+  - item: >-
+      Once we arrive at our starting point we will walk past a local hilltribe
+      school to the start of our hiking trail.
+  - item: >-
+      We will hike around 4 – 5 hours through the heart of Pha Daeng National
+      Park, along side Doi Luang Mountain the 3rd highest mountain in Thailand,
+      along the way you will see the mountain side through the canopies, the
+      diverse fauna and flora of the rainforest  and enjoy the beauty of
+      waterfalls. Stopping for Lunch along the route in the rain forest.
+  - item: >-
+      Finally reaching our ending point and leaving to arrive in Chiang Mai
+      around 18.30.
+notes: >-
+  Trails can slightly change during different seasons and also depending on
+  fitness levels of groups.
+moreimages:
+  - image: /uploads/chiangdao01.jpg
+    alt: fruit break
+    id: CD1-01
+  - image: /uploads/chiangdao09.jpg
+    alt: Pha Daeng National Park
+    id: CD1-02
+  - image: /uploads/chiangdao03.JPG
+    alt: waterfalls in Pha Daeng National Park
+    id: CD1-03
+  - image: /uploads/chiangdao06.JPG
+    alt: waterfalls in Pha Daeng National Park
+    id: CD1-05
+  - image: /uploads/chiangdao04.JPG
+    alt: local hilltribe school
+    id: CD1-04
+  - image: /uploads/chiangdao07.JPG
+    alt: trekking in Pha Daeng National Park
+    id: CD1-06
+  - image: /uploads/chiangdao08.JPG
+    alt: trekking in Pha Daeng National Park
+    id: CD1-07
+  - image: /uploads/chiangdao02.JPG
+    alt: Pha Daeng National Park rain forest
+    id: CD1-08
+  - image: /uploads/chiangdao10.JPG
+    alt: Doi Luang mountain
+    id: CD1-09
+  - image: /uploads/chiangdao16.JPG
+    alt: Pha Daeng National Park rain forest
+    id: CD1-10
+  - image: /uploads/chiangdao15.JPG
+    alt: Pha Daeng National Park rain forest
+    id: CD1-11
+  - image: /uploads/chiangdao17.JPG
+    alt: chiang dao viewpoiint
+    id: CD1-12
+  - image: /uploads/chiangdao18.JPG
+    alt: Pha Daeng National Park rain forest
+    id: CD1-13
+  - image: /uploads/chiangdao20.JPG
+    alt: Pha Daeng National Park rain forest
+    id: CD1-14
+  - image: /uploads/chiangdao21.jpg
+    alt: local hilltribe school
+    id: CD1-15
+  - image: /uploads/chiangdao22.JPG
+    alt: Doi Luang mountain
+    id: CD1-16
+---
