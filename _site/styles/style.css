@@ -584,7 +584,10 @@ footer nav a:hover {
 .bg-impact {
   background-image: url('/uploads/doi-inthanon-13.jpg');
 }
-
+.guide-image {;
+  width: 100%;
+  overflow-y: hidden;
+}
 /* gallery page styles */
 .masonry-layout {
   column-count: 3;

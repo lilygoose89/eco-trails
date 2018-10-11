@@ -1,9 +1,22 @@
 ---
 layout: default
 title: About Us | Ethnic Hilltribe Eco Trails
-description: We are a family-run tour operator specializing in off-the-beaten-path, Karen hilltribe style nature hikes in the scenic hills of northern Thailand. Our offices are based in Chiang Mai, Thailand, and we look forward to taking you on your next adventure.
+description: We are a family-run tour operator specializing in off-the-beaten-path, Karen hilltribe style nature hikes in the scenic hills of northern Thailand. We're dedicated to ethical tourism and sustainability. Our office is based in Chiang Mai, Thailand, and we look forward to taking you on your next adventure.
 image: /images/kischafam.jpg
 keywords: is ethnic hilltribe eco trails a good tour company, ethical trekking chiang mai, family run tour chiang mai, karen hilltribe trekking, chiang mai off the beaten path, chiang mai trekking guide, chiang mai hilltribe guide, chiang mai karen guide, authentic hiking trails chiang mai
+guides:
+  - name: Sak
+    image: /images/sak.jpeg
+    description: Sak is one of the younger brothers of founder Mit. He grew up with his brothers in their Karen hilltribe village in Chiang Dao. Having grown up in the jungle, he is very knowledgeable about the the rainforests and always shares this intimacy with our guests. He has been a trekking guide for many years and his great sense of humour makes every trek a fun experience.
+  - name: Det
+    image: /images/det.jpeg
+    description: Det is the youngest brother of Sak and founder Mit. He naturally followed in the foot steps of his older brothers as tour guiding opened up a lot of doors for him. He is a licensed guide in not only in Chiang Mai but other parts of the Thailand too. Like all our brothers, Det has a great sense of humour and lots of knowledge to share with everyone along our trails. He makes everyone feel comfortable and well taken care of, and he is also a great cook!
+  - name: Lek
+    image: /images/lek.jpeg
+    description: Lek is also from the same Karen hilltribe village in Chiang Dao as Sak, Det, and Mit. He is our veteran guide, having led tours and trek in northern Thailand for more than 10 years. He has an absolute WEALTH of knowledge and loves to talk about Thai and Karen culture and history as well as share his jungle wisdom and love of nature. He speaks superb English and is a laid back guide who makes everyone feel comfortable and well taken care of.
+  - name: Yod
+    image: /images/yod.jpeg
+    description: Yod is one of our youngest and newest guides, hailing from a Karen village in Doi Inthanon. He has been with us for over a yearwhile working to achieve his trekking license. Yod is a favorite of families that have kids as he always has everyone laughing at his antics and the games he creates along our trails, using all that nature has to offer as a tool for fun. His family is part of our skills development program and farmstay we take guests on our 2 Day Doi Inthanon Trail to.
 ---
 <header>
   <!-- this is the half-height header hero with paper tear underneath -->
@@ -15,7 +28,7 @@ keywords: is ethnic hilltribe eco trails a good tour company, ethical trekking c
   <div class="tour-intro text-center section-padding">
     <h1 class="editable">About Ethnic Hilltribe Eco Trails</h1>
     <p class="editable">
-      We are a family-run tour operator specializing in off-the-beaten-path, Karen hilltribe style nature hikes in the scenic hills of northern Thailand. Our offices are based in Chiang Mai, Thailand, and we look forward to taking you on your next adventure.
+      We are a family-run tour operator specializing in off-the-beaten-path, Karen hilltribe style nature hikes in the scenic hills of northern Thailand. We're dedicated to ethical tourism and sustainability. Our office is based in Chiang Mai, Thailand, and we look forward to taking you on your next adventure.
     </p>
     <!-- <a><button class="button-wide">Book Now →</button></a> -->
     <a href="#whoweare"><i class="fa fa-angle-double-down text-big text-turq" aria-hidden="true"></i></a>
@@ -47,10 +60,26 @@ keywords: is ethnic hilltribe eco trails a good tour company, ethical trekking c
   <div style="height: 60vh;"></div>
 </section>
 <div class="tear-bottom">
-  <img src="/images/tear-bottom.png"/>
+  <img src="/images/tear-bottom.png" class="guide-image"/>
 </div>
 <section class="text-center scoot-up">
-  <h2 class="editable pad-bottom-xs">Our Operating Partners</h2>
+  <h2 class="editable pad-bottom-xs">Our Guides</h2>
+  <p class="editable pad-bottom-xs">
+    Mit and his fellow Karen guides have a deep knowledge of the rainforest and how to live in the mountains. Join them to completely immerse yourself and hike in the beauty of northern Thailand.
+  </p>
+  <div class="grid-spaceAround">
+    {% for guides in page.guides %}
+    <div class="editable col-6_sm-12">
+      <img src="{{guides.image}}" alt="guides.name"/>
+      <h3>{{guides.name}}</h3>
+      <p>
+        {{guides.description}}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+  <a href="all-tours"><button class="button-wide margin-top-s margin-left-xs margin-right-xs">Book a Tour With Our Amazing Guides</button></a>
+  <!-- <h2 class="editable pad-bottom-xs">Our Operating Partners</h2>
   <p class="editable pad-bottom-xs">
     We work with trusted partners, mainly other mom-and-pop operations like ours, to offer you great experiences beyond the trail.
   </p>
@@ -64,21 +93,5 @@ keywords: is ethnic hilltribe eco trails a good tour company, ethical trekking c
     <div class="col-3_sm-12 bg-turq">
 
     </div>
-  </div>
-  <h2 class="editable pad-bottom-xs">Our Guides</h2>
-  <p class="editable pad-bottom-xs">
-    Mit and his fellow Karen guides have a deep knowledge of the rainforest and how to live in the mountains. Join them to completely immerse yourself and hike in the beauty of northern Thailand.
-  </p>
-  <div class="grid-spaceAround pad-bottom-s">
-    <div class="editable col-3_sm-12 bg-turq">
-
-    </div>
-    <div class="editable col-3_sm-12 bg-turq">
-
-    </div>
-    <div class="editable col-3_sm-12 bg-turq">
-
-    </div>
-  </div>
-  <a href="all-tours"><button class="button-wide margin-top-s margin-left-xs margin-right-xs">Book a Tour</button></a>
+  </div> -->
 </section>
