@@ -6,9 +6,24 @@ collections:
     output: true
     permalink: /:collection/:name
 
-gems:
+plugins:
   - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Ethnic Hilltribe Eco Trails
+author:
+  name: Ethnic Hilltribe Eco Trails
+  email: EthnicHilltribeEcoTrails@gmail.com
+  twitter:
+social:
+  name: Ethnic Hilltribe Eco Trails
+  links:
+    - ethnichilltribeecotrails.com
+
+# Values for the jekyll-archives gem
 jekyll-archives:
   enabled: 'all'
   layout: 'post-list'
