@@ -233,7 +233,7 @@ button {
   left: -25%;
   width: 150%;
   height: 85vh;
-  z-index: -1;
+  /* z-index: -1; */
   padding-top: 15vh;
 }
 .tear-hero-bottom {
@@ -483,7 +483,7 @@ footer nav a:hover {
 .tripadvisor {
   max-width: 250px;
 }
-.bg-pick-date {
+.bg-home-bottom {
   background-image: url('/images/water-buffalo.jpg');
 }
 @media all and (max-width:1024px) {
