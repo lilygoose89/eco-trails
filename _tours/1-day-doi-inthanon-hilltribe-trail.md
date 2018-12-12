@@ -34,6 +34,7 @@ highlights:
   - highlight: Trek a special trail through the jungle
   - highlight: Visit a waterfall
   - highlight: Ethnic Karen Hilltribe Village
+  - highlight: Views
 itinerary:
   - item: >-
       Pick up from your hotel between 7.30 - 8.00 am, drive one and a half hours
