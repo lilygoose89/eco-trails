@@ -13,28 +13,27 @@ code: CD1
 tripkey: '27929'
 tourgroup: trek
 featured:
-image: /uploads/chiangdao20.JPG
+image: /received_2172249179682636.jpeg
 price: 'THB 1,900'
 duration: 1 day
 meals: Lunch
-difficulty: 'Medium, has a mix of uphills and downhills'
-seasonal: >-
-  Available almost all year but if during rainy season there has been a lot of
-  rain over many days we cannot go.
+difficulty: 'Easy to medium, has short uphills'
+seasonal: Available all year
 pickupdropoff: >-
-  Pick up from your hotel between 7.30 - 8.00 am. Drop off in Chiang Mai around
+  Pick up from your hotel between 7.00 - 7.30 am. Drop off in Chiang Mai around
   6.00 pm
 included: >-
   Pick up and drop off from your hotel, lunch, water, English-speaking guide,
   park fees and insurance.
 notincluded: Extra snacks and soft drinks
 whattobring: >-
-  Wear shoes with grip suitable for trekking and climbing, swimsuit for enjoying
-  at the waterfall and pack a warm layer, mornings can be chilly at the summit.
+  Wear shoes with grip suitable for trekking, swimsuit for enjoying at the
+  waterfall and pack a warm layer, mornings can be chilly at the summit.
 highlights:
-  - highlight: Explore Pha Daeng National Park
+  - highlight: Doi Inthanon National Park
   - highlight: Trek a special trail through the jungle
   - highlight: Visit a waterfall
+  - highlight: Ethnic Karen Hilltribe Village
 itinerary:
   - item: >-
       Pick up from your hotel between 7.30 - 8.00 am, drive one and a half hours
@@ -104,3 +103,4 @@ moreimages:
     alt: Doi Luang mountain
     id: CD1-16
 ---
+
