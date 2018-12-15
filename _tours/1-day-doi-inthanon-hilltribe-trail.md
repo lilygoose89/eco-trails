@@ -9,8 +9,9 @@ description: >-
   waterfall for lunch and make your plates out of banana leaves, enjoy view
   points along the trail and arrive at a ethnic Karen Hilltribe village, learn
   about the traditional herbs and discover all the different things you can eat
-  from the rainforest along the way. This trip is great for families because the
-  trail is not difficult.
+  from the rainforest along the way. See rice paddys and local fruit orchards.
+  Visit a Karen Hilltribe villages and see their way of life. This trip is great
+  for families because the trail is not difficult.
 code: DIH1
 tripkey: '27929'
 tourgroup: trek
