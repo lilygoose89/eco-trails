@@ -2,14 +2,16 @@
 layout: tour
 title: 1 Day Doi Inthanon Hilltribe Trail
 description: >-
-  Experience a completely off the beaten track hiking trail in one of Northern
-  Thailand's most beautiful National Parks, Pha Daeng National Park in Chiang
-  Dao. Rich in fauna and flora. Incredibly scenic and non-touristic. Here you
-  will hike one of a kind special hiking trails, traveling 4 - 5 hours through
-  the heart of the rainforest. Visit waterfalls, viewpoints and learn about the
-  jungle and Karen hilltribe culture form your guide. The park is located
-  alongside Doi Luang Mountain, the third highest mountain in Thailand.
-code: CD1
+  Experience a completely off the beaten track hiking trail in Doi Inthanon
+  National Park, rich in fauna and flora. Incredibly scenic and non touristic.
+  Here you will hike one of a kind special hiking trails. Hiking around 4 to 5
+  hours through the heart of the rain forests. Stop at a 15 metre cascading
+  waterfall for lunch and make your plates out of banana leaves, enjoy view
+  points along the trail and arrive at a ethnic Karen Hilltribe village, learn
+  about the traditional herbs and discover all the different things you can eat
+  from the rainforest along the way. This trip is great for families because the
+  trail is not difficult.
+code: DIH1
 tripkey: '27929'
 tourgroup: trek
 featured:
@@ -36,21 +38,24 @@ highlights:
   - highlight: Ethnic Karen Hilltribe Village
   - highlight: Views
 itinerary:
+  - item: Pick up 7.00 to 7.30 am from your hotel.
   - item: >-
-      Pick up from your hotel between 7.30 - 8.00 am, drive one and a half hours
-      to Chiang Dao National Park.
+      Drive 2 hours to Doi Inthanon National Park, stopping at a market along
+      the way.
   - item: >-
-      Stop at a local market along the journey to get supplies and take a
-      restroom break.
+      Arrive at Khunpoy Karen Village, here we will begin our hiking walking
+      through this old village that still build their house on stilts, on the
+      side of the mountain over looking rice fields
   - item: >-
-      Upon arrival at the starting point, walk past a local hilltribe school to
-      the start of the hiking trail.
+      The first part of our hike will take 2 to 2.5 hours through the rainforest
+      stopping at a hidden waterfall for lunch.
   - item: >-
-      Trek around 4 – 5 hours through the heart of Pha Daeng National Park.
-      Along the way you will see the mountain side through the canopies, the
-      diverse fauna and flora of the rainforest, and the beauty of waterfalls.
-  - item: Stop for lunch along the trail.
-  - item: Reach the trek end point and leave to arrive in Chiang Mai around 6.30 pm.
+      After lunch we will hike another 2 hours through the rainforest, enjoying
+      the viewpoint along the trail.
+  - item: >-
+      Ending the trail at Meung Anng Village, if time allows we can go and visit
+      the local school.
+  - item: Arrive back in Chiang Mai around 6pm.
 notes: >-
   Please note that trails and stops may change due to weather and seasonal
   conditions.
