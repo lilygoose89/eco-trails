@@ -13,7 +13,7 @@ description: >-
   Visit a Karen Hilltribe villages and see their way of life. This trip is great
   for families because the trail is not difficult.
 code: DIH1
-tripkey: '27929'
+tripkey: '27930'
 tourgroup: trek
 featured:
 image: /received_2172249179682636.jpeg
@@ -61,10 +61,10 @@ notes: >-
   Please note that trails and stops may change due to weather and seasonal
   conditions.
 moreimages:
-  - image: /uploads/chiangdao01.jpg
-    alt: fruit break
-    id: CD1-01
-  - image: /uploads/chiangdao09.jpg
+  - image: /uploads/1543899829784.jpg
+    alt: Viewpoint
+    id: DH1-01
+  - image:
     alt: Pha Daeng National Park
     id: CD1-02
   - image: /uploads/chiangdao03.JPG
