@@ -10,8 +10,8 @@ description: >-
   points along the trail and arrive at a ethnic Karen Hilltribe village, learn
   about the traditional herbs and discover all the different things you can eat
   from the rainforest along the way. See rice paddys and local fruit orchards.
-  Visit a Karen Hilltribe villages and see their way of life. This trip is great
-  for families because the trail is not difficult.
+  Sleep in a Karen Hilltribe village and see their way of life. On our 2 day
+  trail we will also hike to the famous Wachiratana Waterfall.
 code: DIH1
 tripkey: '27930'
 tourgroup: trek
