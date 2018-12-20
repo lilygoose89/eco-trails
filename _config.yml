@@ -5,6 +5,9 @@ collections:
   tours:
     output: true
     permalink: /:collection/:name
+  tours-inactive:
+    output: true
+    permalink: /:collection/:name
 
 plugins:
   - jekyll-archives

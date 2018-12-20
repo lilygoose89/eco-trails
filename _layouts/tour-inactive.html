@@ -1,0 +1,121 @@
+---
+layout: default
+_hide_content: true
+---
+
+<header>
+  <!-- this is the half-height header hero with paper tear underneath -->
+  <div class="bg-half-hero" style="background-image: url('{{page.image}}');"></div>
+  <div class="tear-half-hero-bottom">
+    <img src="/images/tear-hero-bottom.png" />
+  </div>
+  <!-- this is the tour introduction that appears above the fold -->
+  <div class="tour-intro text-center section-padding pad-bottom-s">
+    <h1>{{page.title}}</h1>
+    <p>{{page.description}}</p>
+    <h2 class="text-red-callout">This tour is currently unavailable</h2>
+    <!-- <a href="#info"><i class="fa fa-angle-double-down text-big text-turq pad-top-xs" aria-hidden="true"></i></a> -->
+  </div>
+</header>
+<section id="info" class="section-padding grid-spaceBetween">
+  <div class="col-4_md-4_sm-12">
+    <!-- this is my "quick facts" box which pulls text from front-matter-->
+    <div class="outline-turq pad-all-s margin-bottom-s">
+      <h4>Quick Facts</h4>
+      <h5>Price:<span class="p"> {{page.price}}</span></h5>
+      <h5>Duration:<span class="p"> {{page.duration}}</span></h5>
+      <h5>Meal(s):<span class="p"> {{page.meals}}</span></h5>
+      <h5>Difficulty:<span class="p"> {{page.difficulty}}</span></h5>
+      <h5>Seasonal:<span class="p"> {{page.seasonal}}</span></h5>
+    </div>
+    <!-- this is my "more info" box which pulls text from front-matter  -->
+    <div class="outline-turq">
+      <h4 class="pad-all-s">More Info</h4>
+      <div class="toggle">
+        <div class="toggle-title grid-spaceBetween">
+          <h5 class="title-name col-10">Pick Up & Drop Off</h5>
+          <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
+        </div>
+        <div class="toggle-inner">
+          <p>{{page.pickupdropoff}}</p>
+        </div>
+      </div>
+      <div class="toggle">
+        <div class="toggle-title grid-spaceBetween">
+          <h5 class="title-name col-10">Included</h5>
+          <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
+        </div>
+        <div class="toggle-inner">
+          <p>{{page.included}}</p>
+        </div>
+      </div>
+      <div class="toggle">
+        <div class="toggle-title grid-spaceBetween">
+          <h5 class="title-name col-10">Not Included</h5>
+          <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
+        </div>
+        <div class="toggle-inner">
+          <p>{{page.notincluded}}</p>
+        </div>
+      </div>
+      <div class="toggle">
+        <div class="toggle-title grid-spaceBetween">
+          <h5 class="title-name col-10">What to Bring</h5>
+          <i class="text-turq fa fa-times col-2" aria-hidden="true"></i>
+        </div>
+        <div class="toggle-inner">
+          <p>{{page.whattobring}}</p>
+        </div>
+      </div>
+    </div>
+    <p style="font-size: 0.9em;">
+      Please support our mission by booking your trek directly with us on this site or by <a href="/contact">calling us</a> instead of through a tour agency.
+    </p>
+  </div>
+  <!-- this is the  main content block for the tour page -->
+  <div class="col-7_md-7_sm-12">
+    <h4>Highlights</h4>
+    <div>
+      <ul>
+        {% for highlights in page.highlights %}
+        <li>
+          {{highlights.highlight}}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <h4>Itinerary:</h4>
+    <div>
+      <ul>
+        {% for itinerary in page.itinerary %}
+        <li>
+          {{itinerary.item}}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- <h4>Notes:</h4>
+    <p>{{page.notes}}</p> -->
+  </div>
+</section>
+<section class="margin-bottom-s">
+  <h2 class="text-center">Trip Images</h2>
+  <div class="masonry-layout">
+    {% for moreimages in page.moreimages %}
+    <div class="masonry-container">
+      <div class="masonry-content">
+        <a id="{{moreimages.id}}" class="click-full-screen"><img src="{{moreimages.image}}" alt="{{moreimages.alt}}" /></a>
+      </div>
+    </div>
+    <!-- popup modal not shown by default -->
+    <div id="{{moreimages.id}}Modal" class="modal">
+      <div class="modal-content grid">
+        <span class="close col-12 text-right"><i class="fa fa-times text-white text-big" aria-hidden="true"></i></span>
+        <div class="col-12">
+          <img src="{{moreimages.image}}" alt="{{moreimages.alt}}" class="full-screen-image"/>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

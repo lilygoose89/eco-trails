@@ -101,6 +101,10 @@ li {
 .text-turq {
   color: #3ca79a;
 }
+.text-red-callout {
+  color: red;
+  text-transform: uppercase;
+}
 .text-big {
   font-size: 2em;
 }
@@ -650,9 +654,18 @@ footer nav a:hover {
   margin: 2%;
 }
 .full-screen-image {
-  height: auto !important;
-  width: 80%;
+  max-height: 90%;
+  width: auto;
   margin: 0 auto;
+}
+.close {
+  position: absolute;
+  right: 3%;
+  color: white;
+  cursor: pointer;
+}
+.close:hover {
+  color: black;
 }
 /* contact and faqs page styles */
 .bg-contact {
