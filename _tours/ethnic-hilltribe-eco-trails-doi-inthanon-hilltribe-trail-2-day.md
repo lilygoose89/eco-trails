@@ -17,7 +17,7 @@ tripkey: '27930'
 tourgroup: trek
 featured:
 image: /received_2172249179682636.jpeg
-price: 'THB 1,900'
+price: 'THB 2,900'
 duration: 1 day
 meals: Lunch
 difficulty: 'Easy to medium, has short uphills'
@@ -54,9 +54,19 @@ itinerary:
       After lunch we will hike another 2 hours through the rainforest, enjoying
       the viewpoint along the trail.
   - item: >-
-      Ending the trail at Meung Anng Village, if time allows we can go and visit
-      the local school.
-  - item: Arrive back in Chiang Mai around 6pm.
+      Arrive at Meung Ang Village, where you will be staying the night, explore
+      the local village and visit the local school.
+  - item: >-
+      Enjoy a local thai dinner cooked by your guide, you are welcome to help
+      him prepare the dinner for the evening.
+  - item: >-
+      Day 2: Slow start to the morning, we will prepare breakfast and depart for
+      our hike.
+  - item: >-
+      We will hike approximately 4 hours through the Rainforest to the beautiful
+      Wachiratana waterfall, once here we can swim and enjoy the falls.
+  - item: We will have lunch along the trail.
+  - item: Depart Doi Inthanon and arrive back in Chiang Mai around 17.30
 notes: >-
   Please note that trails and stops may change due to weather and seasonal
   conditions.
@@ -110,3 +120,4 @@ moreimages:
     alt: Doi Luang mountain
     id: CD1-16
 ---
+
