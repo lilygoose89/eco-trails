@@ -95,5 +95,8 @@ moreimages:
   - image: /uploads/47091420_883894918484567_2018287213510393856_n.jpg
     alt: Farms
     id: DI2-08
+  - image: /uploads/47143923_2106143052742137_5283435396196204544_n.jpg
+    alt: 15 meter Waterfall
+    id: DI2-09
 ---
 
