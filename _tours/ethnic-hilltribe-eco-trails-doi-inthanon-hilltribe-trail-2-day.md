@@ -74,50 +74,26 @@ moreimages:
   - image: /uploads/1543899829784.jpg
     alt: Viewpoint
     id: DH1-01
-  - image:
-    alt: Pha Daeng National Park
-    id: CD1-02
-  - image: /uploads/chiangdao03.JPG
-    alt: waterfalls in Pha Daeng National Park
-    id: CD1-03
-  - image: /uploads/chiangdao06.JPG
-    alt: waterfalls in Pha Daeng National Park
-    id: CD1-05
-  - image: /uploads/chiangdao04.JPG
-    alt: local hilltribe school
-    id: CD1-04
-  - image: /uploads/chiangdao07.JPG
-    alt: trekking in Pha Daeng National Park
-    id: CD1-06
-  - image: /uploads/chiangdao08.JPG
-    alt: trekking in Pha Daeng National Park
-    id: CD1-07
-  - image: /uploads/chiangdao02.JPG
-    alt: Pha Daeng National Park rain forest
-    id: CD1-08
-  - image: /uploads/chiangdao10.JPG
-    alt: Doi Luang mountain
-    id: CD1-09
+  - image: /uploads/47082928-268080300562072-6101863301602344960-n.jpg
+    alt: Waterfall
+    id: DH2-02
+  - image: /uploads/47007563_730967647282228_2382734786511765504_n.jpg
+    alt: Doi Inthanon Village
+    id: DH2-03
   - image: /uploads/chiangdao16.JPG
-    alt: Pha Daeng National Park rain forest
-    id: CD1-10
-  - image: /uploads/chiangdao15.JPG
-    alt: Pha Daeng National Park rain forest
-    id: CD1-11
-  - image: /uploads/chiangdao17.JPG
-    alt: chiang dao viewpoiint
-    id: CD1-12
+    alt: Doi Inthanon Rainforest
+    id: DH2-04
   - image: /uploads/chiangdao18.JPG
-    alt: Pha Daeng National Park rain forest
-    id: CD1-13
-  - image: /uploads/chiangdao20.JPG
-    alt: Pha Daeng National Park rain forest
-    id: CD1-14
-  - image: /uploads/chiangdao21.jpg
-    alt: local hilltribe school
-    id: CD1-15
-  - image: /uploads/chiangdao22.JPG
-    alt: Doi Luang mountain
-    id: CD1-16
+    alt: Doi Inthanon National Park rain forest
+    id: DI2-05
+  - image: /uploads/47028483_276833719689593_769353458758189056_n.jpg
+    alt: Doi Inthanon Rainforest
+    id: DI2-06
+  - image: /uploads/47083991_2217233828524544_7395439040918454272_n.jpg
+    alt: View
+    id: DI2-07
+  - image: /uploads/47091420_883894918484567_2018287213510393856_n.jpg
+    alt: Farms
+    id: DI2-08
 ---
 
