@@ -98,5 +98,8 @@ moreimages:
   - image: /uploads/47143923_2106143052742137_5283435396196204544_n.jpg
     alt: 15 meter Waterfall
     id: DI2-09
+  - image: /uploads/48084326_2326169560947585_5333935733331722240_n.jpg
+    alt: Rainforest in Doi Inthanon
+    id: DI2-10
 ---
 
