@@ -13,7 +13,7 @@ description: >-
   Visit a Karen Hilltribe villages and see their way of life. This trip is great
   for families because the trail is not difficult.
 code: DIH1
-tripkey: '27930'
+tripkey: '52335'
 tourgroup: trek
 featured:
 image: /received_2172249179682636.jpeg
@@ -110,3 +110,4 @@ moreimages:
     alt: Doi Luang mountain
     id: CD1-16
 ---
+
