@@ -13,7 +13,7 @@ description: >-
   Sleep in a Karen Hilltribe village and see their way of life. On our 2 day
   trail we will also hike to the famous Wachiratana Waterfall.
 code: DIH1
-tripkey: '27931'
+tripkey: '52980'
 tourgroup: trek
 featured:
 image: /uploads/1543899829784.jpg
