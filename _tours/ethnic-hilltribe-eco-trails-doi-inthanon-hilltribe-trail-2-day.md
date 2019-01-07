@@ -19,9 +19,9 @@ tourgroup: trek
 featured:
 image: /uploads/1543899829784.jpg
 price: 'THB 2,900'
-duration: 1 day
-meals: Lunch
-difficulty: 'Easy to medium, has short uphills'
+duration: 2 days
+meals: All meals
+difficulty: 'Medium, has short uphills'
 seasonal: Available all year
 pickupdropoff: >-
   Pick up from your hotel between 7.00 - 7.30 am. Drop off in Chiang Mai around
@@ -64,7 +64,8 @@ itinerary:
       Day 2: Slow start to the morning, we will prepare breakfast and depart for
       our hike.
   - item: >-
-      We will hike approximately 4 hours through the Rainforest to the beautiful
+      We will hike approximately 4 hours through the Rainforest ending at
+      another Karen Village, we will then take a short drive to the beautiful
       Wachiratana waterfall, once here we can swim and enjoy the falls.
   - item: We will have lunch along the trail.
   - item: Depart Doi Inthanon and arrive back in Chiang Mai around 17.30
