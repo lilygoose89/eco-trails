@@ -62,10 +62,7 @@ itinerary:
   - item: >-
       Day 2: Slow start to the morning, we will prepare breakfast and depart for
       our hike.
-  - item: >-
-      We will hike approximately 4 hours through the Rainforest ending at
-      another Karen Village, we will then take a short drive to the beautiful
-      Wachiratana waterfall, once here we can swim and enjoy the falls.
+  - item: We will hike approximately 4 hours through the Rainforest .
   - item: We will have lunch along the trail.
   - item: Depart Doi Inthanon and arrive back in Chiang Mai around 17.30
 notes: >-
