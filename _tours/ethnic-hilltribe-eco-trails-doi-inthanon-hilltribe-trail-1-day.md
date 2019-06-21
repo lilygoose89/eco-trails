@@ -53,7 +53,7 @@ itinerary:
       After lunch we will hike another 2 hours through the rainforest, enjoying
       the 2 waterfalls along the trail.
   - item: >-
-      Ending the trail at Meung Anng Village, if time allows we can go and visit
+      Ending the trail at Khun Poy village, IF time allows we can go and visit
       the local school.
   - item: Arrive back in Chiang Mai around 6pm.
 notes: >-
