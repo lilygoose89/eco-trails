@@ -48,7 +48,7 @@ itinerary:
       the side of the mountain over looking rice fields
   - item: >-
       The first part of our hike will take 2 to 2.5 hours through the rainforest
-      stopping at a hidden waterfall for lunch.
+      stopping at a viewpoint for lunch
   - item: >-
       After lunch we will hike another 2 hours through the rainforest, enjoying
       the viewpoint along the trail.
