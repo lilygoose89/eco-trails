@@ -43,10 +43,7 @@ itinerary:
   - item: >-
       Drive 2 hours to Doi Inthanon National Park, stopping at a market along
       the way.
-  - item: >-
-      Arrive at Khunpoy Karen Village, here we will begin our hiking walking
-      through this old village that still build their house on stilts, on the
-      side of the mountain over looking rice fields
+  - item: Start the trek behind a village over looking rice fields
   - item: >-
       The first part of our hike will take 2 to 2.5 hours through the rainforest
       stopping at a viewpoint for lunch and passing a beautiful waterfall.
