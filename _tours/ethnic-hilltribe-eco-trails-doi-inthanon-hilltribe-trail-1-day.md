@@ -5,13 +5,13 @@ description: >-
   Experience a completely off the beaten track hiking trail in Doi Inthanon
   National Park, rich in fauna and flora. Incredibly scenic and non touristic.
   Here you will hike one of a kind special hiking trails. Hiking around 6 hours
-  through the heart of the rain forests. Stop at 2e beautiful cascading
-  waterfall and a stunning viewpoint for lunch and make your plates out of
-  banana leaves, enjoy view points along the trail and arrive at a ethnic Karen
-  Hilltribe village, learn about the traditional herbs and discover all the
-  different things you can eat from the rainforest along the way. See rice
-  paddys and local fruit orchards. Visit a Karen Hilltribe villages and see
-  their way of life.
+  through the heart of the rain forests. Stop at 2 beautiful cascading waterfall
+  and a stunning viewpoint for lunch and make your plates out of banana leaves,
+  enjoy view points along the trail and arrive at a ethnic Karen Hilltribe
+  village, learn about the traditional herbs and discover all the different
+  things you can eat from the rainforest along the way. See rice paddys and
+  local fruit orchards. Visit a Karen Hilltribe villages and see their way of
+  life.
 code: DIH1
 tripkey: '52335'
 tourgroup: trek
@@ -20,7 +20,7 @@ image: /received_2172249179682636.jpeg
 price: 'THB 1,900'
 duration: 1 day
 meals: Lunch
-difficulty: 'Easy to medium, has short uphills'
+difficulty: 'Medium, has short uphills'
 seasonal: Available all year
 pickupdropoff: >-
   Pick up from your hotel between 7.00 - 7.30 am. Drop off in Chiang Mai around
@@ -44,9 +44,8 @@ itinerary:
       Drive 2 hours to Doi Inthanon National Park, stopping at a market along
       the way.
   - item: >-
-      Arrive at Khunpoy Karen Village, here we will begin our hiking walking
-      through this old village that still build their house on stilts, on the
-      side of the mountain over looking rice fields
+      Begin our hiking walking through this near a school and old village, on
+      the side of the mountain over looking rice fields
   - item: >-
       The first part of our hike will take 2 to 2.5 hours through the rainforest
       stopping at a hidden waterfall for lunch.
