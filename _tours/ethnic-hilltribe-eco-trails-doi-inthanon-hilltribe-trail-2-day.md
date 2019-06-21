@@ -51,7 +51,7 @@ itinerary:
       After lunch we will hike another 2 hours through the rainforest, enjoying
       the viewpoint along the trail and passing another stunning waterfall.
   - item: >-
-      Arrive at Meung Ang Village, where you will be staying the night, explore
+      Arrive at Khun Poy Village, where you will be staying the night, explore
       the local village and visit the local school.
   - item: >-
       Enjoy a local thai dinner cooked by your guide, you are welcome to help
