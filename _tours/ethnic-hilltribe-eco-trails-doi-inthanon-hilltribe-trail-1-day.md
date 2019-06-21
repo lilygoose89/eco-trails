@@ -51,7 +51,7 @@ itinerary:
       stopping at a viewpoint for lunch
   - item: >-
       After lunch we will hike another 2 hours through the rainforest, enjoying
-      the viewpoint along the trail.
+      the 2 waterfalls along the trail.
   - item: >-
       Ending the trail at Meung Anng Village, if time allows we can go and visit
       the local school.
