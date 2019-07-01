@@ -4,7 +4,7 @@ title: Ethnic Hilltribe Eco Trails - 2 Day Doi Inthanon Hilltribe Trail
 description: >-
   Experience a completely off the beaten track hiking trail in Doi Inthanon
   National Park, rich in fauna and flora. Incredibly scenic and non touristic.
-  Here you will hike one of a kind special hiking trails. Hiking around 6 hours
+  Here you will hike one of a kind special hiking trails. Hiking around 5 hours
   through the heart of the rain forests. Stop at 2 beautiful cascading
   waterfalls along the trail and have lunch at a viewpoint. Enjoy view points
   along the trail and arrive at a ethnic Karen Hilltribe village, learn about
