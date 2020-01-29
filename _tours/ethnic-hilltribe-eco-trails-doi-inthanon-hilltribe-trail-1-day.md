@@ -102,9 +102,6 @@ moreimages:
   - image: /uploads/chiangdao20.JPG
     alt: Pha Daeng National Park rain forest
     id: CD1-14
-  - image: /uploads/chiangdao21.jpg
-    alt: local hilltribe school
-    id: CD1-15
   - image: /uploads/chiangdao22.JPG
     alt: Doi Luang mountain
     id: CD1-16
