@@ -52,7 +52,8 @@ itinerary:
       the viewpoint along the trail and passing another stunning waterfall.
   - item: >-
       Arrive at Khun Poy Village, where you will be staying the night, explore
-      the local village and visit the local school.
+      the local village and enjoy a local hilltribe coffee at the little coffee
+      shop in the village.
   - item: >-
       Enjoy a local thai dinner cooked by your guide, you are welcome to help
       him prepare the dinner for the evening.
