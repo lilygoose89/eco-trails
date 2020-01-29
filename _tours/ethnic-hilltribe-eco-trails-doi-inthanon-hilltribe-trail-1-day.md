@@ -53,8 +53,8 @@ itinerary:
       After lunch we will hike another 2 hours through the rainforest, enjoying
       the 2 waterfalls along the trail.
   - item: >-
-      Ending the trail at Khun Poy village, IF time allows we can go and visit
-      the local school.
+      Ending the trail at Khun Poy village, enjoy a local hilltribe coffee shop
+      after the trek, at the villages little coffee shop.
   - item: Arrive back in Chiang Mai around 6pm.
 notes: >-
   Please note that trails and stops may change due to weather and seasonal
