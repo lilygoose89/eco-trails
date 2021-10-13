@@ -18,4 +18,4 @@ excerpt_separator: <!-- excerpt -->
 published: true
 layout: post
 ---
-# [...](https://www.momondo.de/city-guides/discover-Chiang-Mai.6042.guide.ksp){: target="_blank" rel="noopener"}
+# […](/blog.html){: target="_blank" rel="noopener"}
