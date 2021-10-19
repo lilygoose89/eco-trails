@@ -496,6 +496,15 @@ footer nav a:hover {
 .bg-home-bottom {
   background-image: url('/images/water-buffalo.jpg');
 }
+
+.momondo {
+  width: 200px;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  z-index: 9;
+}
+
 @media all and (max-width:1024px) {
   .home-title {
     font-size: 6em;
@@ -512,6 +521,9 @@ footer nav a:hover {
   .home-title {
     font-size: 3em;
     top: 4em;
+  }
+  .momondo {
+    width: 150px;
   }
 }
 @media all and (max-width:414px) {
