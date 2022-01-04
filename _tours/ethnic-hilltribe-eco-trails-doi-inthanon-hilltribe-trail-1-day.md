@@ -17,17 +17,17 @@ tripkey: '52335'
 tourgroup: trek
 featured:
 image: /received_2172249179682636.jpeg
-price: 'THB 1,900'
+price: THB 1,900
 duration: 1 day
 meals: Lunch
-difficulty: 'Medium, has short uphills'
+difficulty: Medium, has short uphills
 seasonal: Available all year
 pickupdropoff: >-
   Pick up from your hotel between 7.00 - 7.30 am. Drop off in Chiang Mai around
   6.00 pm
 included: >-
-  Pick up and drop off from your hotel, lunch, water, English-speaking guide,
-  park fees and insurance.
+  Pick up and drop off from your hotel, lunch, water, English-speaking guide and
+  insurance.
 notincluded: Extra snacks and soft drinks
 whattobring: >-
   Wear shoes with grip suitable for trekking, swimsuit for enjoying at the
